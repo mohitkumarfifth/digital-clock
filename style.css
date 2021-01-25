@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background: #001788;
+}
+.clock{
+    background: #001788;
+    height: 150px;
+    width: 600px;
+    line-height: 120px;
+    text-align: center;
+    padding: 30px 5px;
+    border-radius: 20px;
+    box-shadow: -3px -3px 7px rgba(255,255,255,0.30),
+                3px 3px 7px rgba(0,0,0,0.50);
+}
+.clock .display{
+    font-size: 95px;
+    color:aqua;
+    letter-spacing: 5px;
+    font-family: 'Special Elite', cursive;
+}
